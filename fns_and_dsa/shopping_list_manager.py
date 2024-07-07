@@ -14,13 +14,14 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            item = input("Enter an item: ")
+            item = input("Enter the item to add: ")
             shopping_list.append(item)
             print("/n")
     
         elif choice == '2':
-            item = str(input("Item name to be remove: ")) 
+            item = str(input("Enter the item to remove: ")) 
             shopping_list.remove(item)
+            
         elif choice == '3':
             for i in shopping_list:
                 

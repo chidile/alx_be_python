@@ -1,6 +1,6 @@
 #!/bin/bash
+from datetime import datetime
 
-import datetime
 now = datetime.datetime.now()
 
 def display_current_datetime():

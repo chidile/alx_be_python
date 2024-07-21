@@ -11,7 +11,7 @@ class Rectangle(Shape):
         self.width = width
     
     def area(self):
-        area = self.width * self.length
+        area = self.length * self.width
         return area
         
 

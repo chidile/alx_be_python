@@ -9,9 +9,5 @@ class Calculator:
 
     @classmethod  
     def multiply(cls, a, b):  
-        print(f"Performing {cls.calculation_type}...")  
+        print(f"Calculation type: {cls.calculation_type}")  
         return a * b  
-
-# Example usage:  
-print(Calculator.add(2, 3))  # Output: 5  
-print(Calculator.multiply(4, 5))  # Output: Performing Arithmetic Operations... 20
